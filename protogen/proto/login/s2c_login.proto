@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message S2cLogin {
+    string account = 1; //帐号
+    string passwd = 2;  //密码
+    string version = 3; //协议版本字符串
+}

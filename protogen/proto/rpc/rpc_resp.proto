@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message RpcResp {
+    int32 from_host = 1;
+    string from_addr = 2;
+    int32 to_host = 3;
+    string to_addr = 4;
+    uint64 session = 5;
+    string func = 6;
+    string args = 7;
+}

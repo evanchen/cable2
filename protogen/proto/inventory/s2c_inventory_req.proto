@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message S2cInventoryReq {
+    uint32 tag = 1; //背包类型或标签
+}

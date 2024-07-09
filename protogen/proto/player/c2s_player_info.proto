@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message C2sPlayerInfo {
+    uint64 uid = 1;
+    string name = 2;
+    uint32 level = 3;
+    uint32 expr = 4;
+    uint32 roleId = 5; //角色id
+}

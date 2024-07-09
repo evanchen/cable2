@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message S2cPlayerInfo {
+    uint64 uid = 1;
+}

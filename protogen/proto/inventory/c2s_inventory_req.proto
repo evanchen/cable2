@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "embed/embed.proto";
+
+message C2sInventoryReq {
+    uint32 tag = 1;
+    repeated embed.Item items = 2; //该背包的所有物品
+}
